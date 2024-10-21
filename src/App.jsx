@@ -1,10 +1,9 @@
 import { useState, useEffect, useRef } from 'react';
 import './App.css';
-import getQuestions from './services/getQuestions';
+import QuestionList from './components/QuestionList';
 
 function App() {
     const [playing, setPlaying] = useState(false);
-    const [questions, setQuestions] = useState(getQuestions());
 
     return (
         <main>
@@ -16,7 +15,7 @@ function App() {
                     <button onClick={() => setPlaying(true)}>Start quiz</button>
                 </>
             ) : (
-                <div>logic here for playing the game</div>
+                <QuestionList />
             )}
             <img id='blue_blob' src='src/assets/blue_blob.svg' />
         </main>
