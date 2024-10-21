@@ -17,15 +17,18 @@ main {
     font-family: 'Karla', sans-serif;
     margin-top: 0;
     text-align: center;
+    z-index: 0;
 }
 
 #yellow_blob {
     position: absolute;
     right: 0px;
+    z-index: -1;
 }
 
 #blue_blob {
     position: absolute;
     bottom: 0px;
     left: 0px;
+    z-index: -1;
 }

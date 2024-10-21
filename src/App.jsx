@@ -15,7 +15,9 @@ function App() {
                     <button onClick={() => setPlaying(true)}>Start quiz</button>
                 </>
             ) : (
-                <QuestionList />
+                <div>
+                    <QuestionList />
+                </div>
             )}
             <img id='blue_blob' src='src/assets/blue_blob.svg' />
         </main>
