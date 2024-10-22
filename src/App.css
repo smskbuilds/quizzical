@@ -20,6 +20,31 @@ main {
     z-index: 0;
 }
 
+.new-game-page {
+    margin-top: 200px;
+}
+
+.title {
+    color: #293264;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #293264;
+    font-family: 'Inter', serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.start-button {
+    background-color: #4d5b9e;
+    color: #f5f7fb;
+    border-radius: 15px;
+    width: 190px;
+    height: 50px;
+}
+
 #yellow_blob {
     position: absolute;
     right: 0px;

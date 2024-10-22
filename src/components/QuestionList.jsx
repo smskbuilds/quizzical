@@ -1,3 +1,4 @@
+import './QuestionList.css';
 import getQuestions from '../services/getQuestions';
 import Question from './Question.jsx';
 import { useState, useEffect } from 'react';
@@ -57,7 +58,9 @@ function QuestionList() {
         <>
             <div key={nanoid()}>{questionElements}</div>
             {!checkAnswers ? (
-                <button onClick={() => setCheckAnswers(true)}>
+                <button
+                    className='check-answers-button'
+                    onClick={() => setCheckAnswers(true)}>
                     Check Answers
                 </button>
             ) : (

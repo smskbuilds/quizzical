@@ -6,7 +6,7 @@ export default function Question(props) {
     const answerButtons = props.all_answers.map((answer, answerIndex) => {
         return (
             <button
-                className={buttonColor(answerIndex)}
+                className={`answer-button ${buttonColor(answerIndex)}`}
                 key={nanoid()}
                 onClick={() =>
                     props.handleSelectAnswer(props.questionIndex, answerIndex)
