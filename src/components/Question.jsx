@@ -32,8 +32,9 @@ export default function Question(props) {
 
     return (
         <>
-            <h4>{he.decode(props.question)}</h4>
+            <h4 className='question-text'>{he.decode(props.question)}</h4>
             <div key={nanoid()}>{answerButtons}</div>
+            <hr />
         </>
     );
 }

@@ -65,8 +65,12 @@ function QuestionList() {
                 </button>
             ) : (
                 <div>
-                    <h5>You scored 3/5 correct answers</h5>
-                    <button onClick={() => handlePlayAgain()}>
+                    <h5 className='score-text'>
+                        You scored 3/5 correct answers
+                    </h5>
+                    <button
+                        className='play-again-button'
+                        onClick={() => handlePlayAgain()}>
                         Play Again
                     </button>
                 </div>

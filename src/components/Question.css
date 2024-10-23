@@ -1,13 +1,16 @@
 .unchecked-answer {
-    background-color: blue;
+    background-color: #d6dbf5;
+    border-style: none;
 }
 
 .correct-answer {
-    background-color: green;
+    background-color: #94d7a2;
+    border-style: none;
 }
 
 .incorrect-answer {
-    background-color: red;
+    background-color: #f8bcbc;
+    border-style: none;
 }
 
 .answer-button {
@@ -19,4 +22,19 @@
     border-color: #4d5b9e;
     border-width: 1px;
     margin: 5px;
+}
+
+.question-text {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #293264;
+    margin: 12px;
+}
+
+hr {
+    background-color: #dbdef0;
+    width: 400px;
+    height: 1px;
+    border: 0;
 }
